@@ -1,0 +1,152 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9bb8c7; /* Novo fundo cinza mais escuro */
+    color: #fdfdfd; /* Nova cor do texto */
+}
+
+/* Estilos do topo */
+.top {
+    text-align: center;
+    padding: 50px 0;
+    position: center;
+}
+
+.top img {
+    max-width: 100%;
+}
+
+.top img::after {
+    content: "Capa do TCC"; /* Texto de subtítulo */
+    display: block;
+    font-size: 18px;
+    color: #f8f8f7;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* Estilos do meio */
+.mid {
+    padding: 20px;
+    background-color: #759b9e; /* Nova cor de fundo do conteúdo */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    font-style: ;
+}
+
+.intro {
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: #f3eeee;
+    line-height: 1.6;
+    text-align: center;
+    font-family: ;
+    
+}
+
+.catalog {
+    display: flex;
+    justify-content: center; /* Espaço uniforme entre os itens */
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.catalog-item {
+    text-align: center;
+    text-decoration: none;
+    color: #CAD2C5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: calc(33.33% - 20px);
+    max-width: 300px; /* Limitar a largura máxima */
+    border: 1px solid #84A98C;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #84A98C;
+}
+
+
+.catalog-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #52796F; /* Nova cor de fundo das caixas ao passar o mouse */
+}
+
+
+.catalog-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    max-height: 200px;
+}
+
+.catalog-item h2 {
+    font-size: 18px; /* Tamanho do título */
+    color: #52796F;
+    margin-top: 10px; /* Espaçamento acima do título */
+}
+
+/* Estilos do rodapé */
+.bottom {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+/* ... (código anterior) ... */
+
+.detail {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.detail h1 {
+    font-size: 36px; /* Tamanho maior para títulos principais */
+    color: #343835;
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+.detail h2 {
+    font-size: 28px; /* Tamanho para subtítulos */
+    color: #393d3c;
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+.detail h3 {
+    font-size: 18px; /* Tamanho para legendas */
+    color: #444948;
+    margin-top: 10px;
+    font-style: italic; /* Estilo itálico */
+}
+
+.detail p {
+    font-size: 25px;
+    line-height: 1.6; /* Espaçamento entre linhas aumentado */
+    margin-bottom: 20px;
+}
+
+.detail img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0; /* Espaçamento em torno das imagens */
+}
+
+.detail .flex-container {
+    display: flex;
+    justify-content: space-between; /* Espaçamento uniforme entre as imagens */
+    margin-bottom: 20px;
+}
+.detail .flex-container img {
+    max-width: 45%; /* Defina a largura máxima para 45% */
+    height: auto;
+}
+/* ... (resto do código) ... */
